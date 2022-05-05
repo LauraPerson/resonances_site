@@ -2,3 +2,9 @@ img {
   height: 300px;
   width: 300px;
 }
+
+.introduction {
+  background-image: url(/images/RS_LANDING_Background.png);
+  height: 1080px;
+  width: 1920px;
+}

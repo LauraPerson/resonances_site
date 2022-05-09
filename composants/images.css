@@ -5,6 +5,13 @@ img {
 
 .introduction {
   background-image: url(/images/RS_LANDING_Background.png);
-  height: 1080px;
-  width: 1920px;
+  height: 700px;
+  width: 100vw;
+  background-size: cover;
+}
+
+#logo {
+  width: 500px;
+  height: auto;
+  background-size: cover;
 }

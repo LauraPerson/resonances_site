@@ -1,0 +1,16 @@
+.sommaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  list-style-type: none;
+  background-color: #000000;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+  background-size: cover;
+}

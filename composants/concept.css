@@ -1,0 +1,14 @@
+.concept_image {
+  width: 400px;
+  height: auto;
+  background-size: cover;
+}
+
+.first_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  padding: 10px;
+  text-align: center;
+}

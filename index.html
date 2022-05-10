@@ -11,7 +11,7 @@
       <!--Roboto font-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
       <link rel="stylesheet" href="/composants/style.css" type="text/css">
 
@@ -21,19 +21,20 @@
 
     <body>
 
+      <!--summary part-->
       <div>
 
         <ul>
 
           <div class="sommaire">
 
-            <li><img src="/images/Logo_Resonances.png" alt="Logo Resonances" id="logo"></li>
-            <li class="title" id="menu">Concept</li>
-            <li class="title" id="menu">Activités</li>
-            <li class="title" id="menu">Avantages</li>
-            <li class="title" id="menu">Projets</li>
-            <li class="title" id="menu">Blog</li>
-            <li class="title" id="menu">Contact</li>
+            <li><img src="/images/RS_LOGOS_BLANC_v01.png" alt="Logo Resonances" id="logo"></li>
+            <li>Concept</li>
+            <li>Activités</li>
+            <li>Avantages</li>
+            <li>Projets</li>
+            <li>Blog</li>
+            <li>Contact</li>
 
           </div>
 
@@ -43,16 +44,18 @@
 
       </div>
 
-      <div class="introduction">
+      <!--banner part-->
+      <div class="banner">
 
-        <h1 class="title" id="intro_phrase">Au coeur de l'intelligence collective.</h1>
+        <h1 id="intro_phrase">Au coeur de l'intelligence collective.</h1>
         <br>
 
       </div>
 
-      <div>
+      <!--concept part-->
+      <div class="first_card">
 
-        <p class="article">
+        <p>
 
           Les mutations actuelles nous donnent l’opportunité de renforcer la collaboration au sein de nos organisations
           : détecter rapidement des problèmes, les résoudre efficacement par la collaboration, innover…
@@ -61,14 +64,15 @@
 
         </p>
 
-        <img src="/images/pexels-rodnae-productions-9034973.jpg" alt="Image d'une personne présentant son projet.">
+        <img src="/images/Mutations.jpg" alt="Image d'une personne sur son téléphone à son bureau."
+        class="concept_image">
         <br>
 
       </div>
 
-      <div>
+      <div class="first_card">
 
-        <p class="article" id="important_phrase">
+        <p>
 
           Resonances aide les salariés à retrouver le goût du « travailler ensemble ». C’est 1 méthode + 1 application
           pour co-construire dans une culture de confiance, de performance et d’innovation.
@@ -79,9 +83,13 @@
 
       </div>
 
-      <div>
+      <div class="first_card">
 
-        <p class="article">
+        <img src="/images/MFC.jpg" alt="Image d'une personne avec différentes humeurs, représentant les différentes
+        types de salariés." class="concept_image">
+        <br>
+
+        <p>
 
           Vos salariés peuvent être Maker, Follower ou Complex : la seule manière d’avoir une organisation performante
           et responsable est de reconnaître les uns des autres, et de savoir les stimuler. Notre offre physique &
@@ -89,9 +97,6 @@
           la culture collaborative au sein de toute l’organisation.
 
         </p>
-
-        <img src="/images/MINDMAP.jpg" alt="Image venant de la plateforme ThePlace.">
-        <br>
 
       </div>
 
@@ -104,31 +109,56 @@
 
       </div>
 
+      <!--benefits part-->
       <div>
 
-        <h2 class="title">Avantages</h2>
+        <h2>Avantages</h2>
         <br>
-        <h3 class="title">Dirigeants/Clients</h3>
 
-        <p class="article">
+        <div class="second_card">
 
-          Détection des besoins, résolutions rapides et efficaces, remontées réelles et constructives.
+          <h3>Pour les dirigeants</h3>
 
-        </p>
+          <p>
+
+            Détection rapide des besoins, résolutions efficaces et collaboratives, amélioration continue, sources
+            d’économies et innovation.
+
+          </p>
+
+        </div>
 
         <br>
-        <h3 class="title">Management & RH</h3>
-        <p class="article">Diminue la charge d'accompagnement RH tout en augmentant son efficacité.</p>
+
+        <div class="second_card">
+
+          <h3>Pour les Ressources Humaines</h3>
+          <p>Puissance d’analyse et d'accompagnement tout en diminuant la charge opérationnelle.</p>
+
+        </div>
+
         <br>
-        <h3 class="title">Communication</h3>
-        <p class="article">Créé des temps forts de la vie du collectif, physiquement et à distance.</p>
+
+        <div class="second_card">
+
+          <h3>Pour la Communication</h3>
+
+          <p>
+
+            Renforce la culture d’entreprise par une meilleure adoption des communications internes et d’engagement sur
+            les temps forts de l’organisation.
+
+          </p>
+
+        </div>
+
         <br>
 
       </div>
 
       <div>
 
-        <h2 class="title">L'équipe</h2>
+        <h2>L'équipe</h2>
         <br>
         <img src="/images/BONNEFOND Arnaud.jpg" alt="Photo de profil d'Arnaud">
         <br>
@@ -140,33 +170,34 @@
 
       </div>
 
+      <!--project part-->
       <div>
 
-        <h2 class="title">Projets</h2>
+        <h2>Projets</h2>
         <br>
 
         <div id="project1">
 
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
 
         </div>
 
         <div id="project2">
 
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
-          <p class="article">Texte</p>
+          <p>Texte</p>
           <br>
 
         </div>
@@ -175,13 +206,13 @@
 
       <div>
 
-        <h2 class="title">Contact</h2>
+        <h2>Contact</h2>
         <br>
-        <h3 class="article">contact@resonances.group</h3>
+        <h3>contact@resonances.group</h3>
         <br>
-        <p class="article">Mentions Légales</p>
+        <p>Mentions Légales</p>
         <br>
-        <p class="article">Resonances SAS (copyright) 2022</p>
+        <p>Resonances SAS (copyright) 2022</p>
         <br>
 
       </div>

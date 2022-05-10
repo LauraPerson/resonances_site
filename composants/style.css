@@ -1,3 +1,7 @@
+@import "/composants/summary.css";
+@import "/composants/banner.css";
+@import "/composants/concept.css";
+@import "/composants/benefits.css";
+@import "/composants/project.css";
 @import "/composants/colors.css";
 @import "/composants/fonts.css";
-@import "/composants/images.css";
